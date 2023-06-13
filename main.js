@@ -6,7 +6,6 @@ const containerCartProducts = document.querySelector(
 btnCart.addEventListener('click', () => {
 	containerCartProducts.classList.toggle('hidden-cart');
 });
-
 /* ========================= */
 const cartInfo = document.querySelector('.cart-product');
 const rowProduct = document.querySelector('.row-product');
@@ -128,13 +127,4 @@ const showHTML = () => {
 
 	valorTotal.innerText = `$${total}`;
 	countProducts.innerText = totalOfProducts;
-};
-
-
-
-
-/*if (localStorage.getItem("productsList")){
-	productsList =  JSON.parse(localStorage.getItem(productsList));
-   }else{
-  productsList = [];
-   }*/
+};;
